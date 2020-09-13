@@ -2,7 +2,9 @@
 
 @media all and (max-width: 1000px)
  {
-
+  .header-list h3{
+   text-size:20px;
+  }
   .lesson {
 
     width: 50%;
