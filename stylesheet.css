@@ -1,0 +1,64 @@
+h1 {
+  /* Change the color to #ff0000 */
+  color: ##0000ff;
+  
+}
+
+a {
+
+  text-decoration: none;
+
+}
+.header {
+
+  background-color: #49E0D0;
+
+  color: #fff;
+
+  }
+.header-logo{
+	background-color:#2f5167;
+	height:40px;
+	font-size:30px;
+	text-align:center;
+}
+.header-list {
+height:50px;
+
+}
+.header-list dt {
+
+  float: left;
+
+  text-size:20px;
+  padding: 0px 60px;
+
+}
+
+.scroll {
+text-size:40px;
+color:black;
+}
+.container {
+
+  padding: 10px 0 100px 0;
+
+  background:#FAF0E6;
+
+  background-size: cover;
+
+  color: black;
+
+  
+  text-align: center;
+  height:260px;
+  width=100%;
+}
+.aboutme p{
+ font-family: "Times New Roman";
+ font-size:20px;
+}
+.copyright{
+ color:	#C0C0C0;
+text-align:center;
+}
