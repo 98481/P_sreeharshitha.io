@@ -62,3 +62,25 @@ color:black;
  color:	#C0C0C0;
 text-align:center;
 }
+@media only screen and (max-width: 480px) {
+.container {
+    width: 100%;
+    margin-left: 10px;
+  }
+ .header-list h3{
+ 	font-size: 10px;
+ }
+ .header-logo{
+ 	font-size:10px;
+ 	height: 15px;
+ }
+.container{
+	background:#FAF0E6;
+	height:100px;
+}
+.copyright{
+	margin-top: 30px;
+}
+
+
+}
