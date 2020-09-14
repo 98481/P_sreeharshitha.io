@@ -1,42 +1,29 @@
-/* For Tablets */
-
-@media all and (max-width: 1000px)
- {
-  .header-list h3{
-   text-size:20px;
+.container {
+  display: flex;
+}
+.lesson-icon {
+  flex: auto;
+}
+@media (max-width: 1000px) {
+  .container {
+    flex-wrap: wrap;
   }
   .lesson {
-
     width: 50%;
-
-    margin-bottom: 50px;
-
-  }
-
-  .heading h2 {
-
-    font-size: 20px;
-
   }
 }
 
-
-/* For Smartphones */
-
-@media all and (max-width: 670px) {
+/* Layout for Smartphone Devices */
+/* Set the breakpoint to 670px and under for the media query */
+@media (max-width: 670px) {
+ 
+  .container {
+    flex-direction: column;
+  }
+  
 
   .lesson {
-
-    width: 100%;
-
+    margin: 0 auto;
   }
-
   
-  footer {
-
-    text-align: center;
-
-  }
-
 } 
-  
