@@ -68,7 +68,7 @@ text-align:center;
     
   }
  .header-list h3{
- 	font-size: 20px;
+ 	font-size: 14px;
  }
  .header-logo{
  	font-size:18px;
@@ -97,5 +97,6 @@ text-align:center;
 }
 .header{
   height:120px;
+  background-color:#49E0D0;
 }
 }
